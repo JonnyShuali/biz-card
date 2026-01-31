@@ -15,19 +15,25 @@
 
 html {
     scroll-behavior: smooth;
+    height: 100%;
+    overflow: hidden;
 }
 
 body {
     background-color: var(--bgColor);
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    height: 100vh;
+    height: 100dvh; /* Dynamic viewport height for mobile */
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: var(--font);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    position: fixed;
+    width: 100%;
 }
 
 main {
