@@ -1,20 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Roee Mayerowicz</title>
-    <link rel="stylesheet" href="style.css">
-</head>
- 
-    <img id="userPhoto" src="https://gravatar.com/avatar/41b3e36429442785acd3ec34eec9fc49bbb6fba2dbae6aaa7c441c5be938a4ae?s=200" alt="User Photo">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
-    <span id="userName">Roee Mayerowicz</a>
-    <div id="links">
-        <a class="link" href="https://blog.ro.ee/">Blog</a>
-        <a class="link" href="https://www.linkedin.com/in/mayerowicz/" target="_blank">LinkedIn</a>
-	    <a class="link" href="https://x.com/thatsnicer" target="_blank">Twitter</a>
-
-    </div>
-
+    <!-- Primary Meta Tags -->
+    <title>Roee Mayerowicz</title>
+    <meta name="title" content="Roee Mayerowicz">
+    <meta name="description" content="Personal website of Roee Mayerowicz - Software Developer and Tech Enthusiast">
+    <meta name="author" content="Roee Mayerowicz">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ro.ee/">
+    <meta property="og:title" content="Roee Mayerowicz">
+    <meta property="og:description" content="Personal website of Roee Mayerowicz - Software Developer and Tech Enthusiast">
+    <meta property="og:image" content="https://gravatar.com/avatar/41b3e36429442785acd3ec34eec9fc49bbb6fba2dbae6aaa7c441c5be938a4ae?s=200">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:url" content="https://ro.ee/">
+    <meta property="twitter:title" content="Roee Mayerowicz">
+    <meta property="twitter:description" content="Personal website of Roee Mayerowicz - Software Developer and Tech Enthusiast">
+    <meta property="twitter:image" content="https://gravatar.com/avatar/41b3e36429442785acd3ec34eec9fc49bbb6fba2dbae6aaa7c441c5be938a4ae?s=200">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://gravatar.com">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Roee Mayerowicz",
+        "url": "https://ro.ee",
+        "image": "https://gravatar.com/avatar/41b3e36429442785acd3ec34eec9fc49bbb6fba2dbae6aaa7c441c5be938a4ae?s=200",
+        "sameAs": [
+            "https://www.linkedin.com/in/mayerowicz/",
+            "https://x.com/thatsnicer",
+            "https://blog.ro.ee/"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <main>
+        <img 
+            id="userPhoto" 
+            src="https://gravatar.com/avatar/41b3e36429442785acd3ec34eec9fc49bbb6fba2dbae6aaa7c441c5be938a4ae?s=200" 
+            alt="Roee Mayerowicz profile photo"
+            loading="eager"
+            width="200"
+            height="200"
+        >
+        
+        <h1 id="userName">Roee Mayerowicz</h1>
+        
+        <nav id="links" aria-label="Social links">
+            <a class="link blog-link" href="https://blog.ro.ee/" aria-label="Visit my blog">Blog</a>
+            <a class="link" href="https://www.linkedin.com/in/mayerowicz/" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn">LinkedIn</a>
+            <a class="link" href="https://x.com/thatsnicer" target="_blank" rel="noopener noreferrer" aria-label="Follow on Twitter/X">Twitter</a>
+        </nav>
+    </main>
 </body>
 </html>
