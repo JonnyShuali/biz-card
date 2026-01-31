@@ -47,7 +47,7 @@ jobs:
       - name: Optimize CSS
         run: |
           npx clean-css-cli \
-            --level 2 \
+            -O2 \
             -o style.css \
             style.css
 
